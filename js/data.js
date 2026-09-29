@@ -15,7 +15,7 @@ const projecten = [
     {
         titel: "FufBot",
         tekst: "Een Bot waar je een caption kan geven en geeft hij een gif/video terug",
-        link: "./Fufbot/index.html",
+        link: "./Fufbot/Index.html",
         bezig: true
     },
 ];
