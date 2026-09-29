@@ -1,3 +1,4 @@
+// projecten
 const projecten = [
     {
         titel: "Portfolio",
@@ -9,12 +10,12 @@ const projecten = [
         titel: "ManjiKickAudio",
         tekst: "Roblox audio ID's zoeken, beluisteren en kopiëren.",
         link: "https://audios.manjikick.com/",
-        bezig: false
+        bezig: true
     },
     {
         titel: "FufBot",
         tekst: "Een Bot waar je een caption kan geven en geeft hij een gif/video terug",
-        link: "",
+        link: "./fufbot/index.html",
         bezig: true
     },
 ];
@@ -72,7 +73,7 @@ const contact = [
     },
     {
         label: "Adres",
-        tekst: "Coolsingel 40, 3011 AD Rotterdam",   // placeholder
-        link: ""
+        tekst: "Coolsingel 40, 3011 AD Rotterdam",
+        link: "https://www.google.com/maps/place/Coolsingel+40,+3011+AD+Rotterdam"
     }
 ];

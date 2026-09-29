@@ -126,3 +126,22 @@ h2 {
         gap: 4px;
     }
 }
+
+
+/* fufbot pagina */
+.row p + p { margin-top: 6px; }
+
+.row img {
+    display: block;
+    width: 100%;
+    max-width: 460px;
+    margin-top: 10px;
+    border: 2px solid #181818;
+    box-sizing: border-box;
+}
+
+code {
+    background-color: #e8e8e2;
+    padding: 2px 6px;
+    word-break: break-all;
+}
