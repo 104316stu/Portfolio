@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: #f7f7f4;
+    color: #181818;
+    font-family: "Atkinson Hyperlegible", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    display: grid;
+    grid-template-columns: 260px 1fr;
+}
+
+h1, h2, h3, nav {
+    font-family: "Familjen Grotesk", Arial, sans-serif;
+}
+
+a {
+    color: #181818;
+}
+
+
+/* zijbalk */
+
+aside {
+    background-color: #1c2bd8;
+    color: white;
+    padding: 32px 24px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside h1 {
+    font-size: 42px;
+    line-height: 1;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 18px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover { text-decoration: underline; }
+
+aside small {
+    opacity: 0.8;
+}
+
+
+
+main {
+    padding: 48px 64px;
+    max-width: 820px;
+}
+
+section {
+    margin-bottom: 72px;
+}
+
+h2 {
+    font-size: 38px;
+    margin: 0 0 12px 0;
+}
+
+.intro {
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.mute {
+    color: #999;
+    font-style: italic;
+}
+
+
+/* rijen */
+.row {
+    border-top: 2px solid #181818;
+    padding: 18px 0;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 16px;
+}
+
+.row h3 {
+    margin: 0;
+    font-size: 19px;
+}
+.row p { margin: 0; }
+
+
+/* mobiel */
+@media (max-width: 760px) {
+
+    body {
+        grid-template-columns: 1fr;
+    }
+
+    aside {
+        position: static;
+        height: auto;
+        gap: 24px;
+    }
+
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    main {
+        padding: 32px 20px;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+        gap: 4px;
+    }
+}
