@@ -34,7 +34,7 @@ const hobbys = ["Programmeren", "Gamen", "Home servers"];
 const opleiding = [
     {
         school: "Grafisch Lyceum Rotterdam",
-        tekst: "Rotterdam, 2026 tot nu",
+        tekst: "Rotterdam, 2025 tot nu",
         link: ""
     },
     {
